@@ -17,4 +17,6 @@ Code defines a trivial monad FreeGroupZero with a single value constructor holdi
               for most types. It only satisfies the laws automatically because there's only 
               one possible value..
 
+- Maybe Assignment : If you want a formal algebraic structure underlying your function, think of Maybe a as an algebraic structure with Nothing representing the free group on the empty set (the trivial group), allowing a canonical identity element to safely substitute for undefined extractions.
+
 Maintainer  :  stackenmer@hotmail.com
