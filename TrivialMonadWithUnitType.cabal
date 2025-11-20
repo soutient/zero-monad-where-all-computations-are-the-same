@@ -29,16 +29,16 @@ synopsis:           Trivial monad with Unit type
 -- description:     In a theoretical sense, this code describes a monadic group for producing a singleton or a single point, which is a compressible space or set because it can be continuously deformed to zero. It is not a free group with one generator, because there is no generator in this group. It is a free group with zero generators (the trivial group) for each object.
 
 -- The license under which the package is released.
-license:            BSD-3-Clause
+license:            BSD-2-Clause
 
 -- The file containing the license text.
 license-file:       LICENSE
 
 -- The package author(s).
-author:             Alexis
+author:             Alexis Soutient
 
 -- An email address to which users can send suggestions, bug reports, and patches.
-maintainer:         stackenmer@hotmail.com
+maintainer:         retablies@hotmail.com
 
 -- A copyright notice.
 -- copyright:
