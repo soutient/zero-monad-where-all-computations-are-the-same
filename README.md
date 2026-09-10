@@ -2,7 +2,7 @@
  This code demonstrates how algebraic structures can be encoded in types. You can't actually "embed" any information, because the structure is trivial it always erases any input. The identity element is thus used to terminate the computation immediately.
  
  ## Description
-Code defines a trivial monad FreeGroupZero with a single value constructor holding (), representing the zero-generator free group where every computation yields the same result, discarding both the input and the function. All operations ignore their arguments and return the single value.
+Code defines a trivial monad FreeGroupZero with a single value constructor holding (), representing the zero-generator free group where every computation yields the same result, discarding both the input and the function. All operations ignore their arguments and always return the single value.
 
 - Stability   :  experimental
 - Project effect : The identity element is thus used to terminate the computation immediately.
