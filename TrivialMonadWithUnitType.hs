@@ -9,7 +9,7 @@ import Control.Monad (ap)
 newtype FreeGroupZero a = FreeGroupZero () --FreeGroupZero is isomorphic to unit type:
 
 instance Functor FreeGroupZero where
-  fmap _ _ = FreeGroupZero ()  --This functor "forgets" everything. No matter what function or value you provide
+  fmap _ _ = FreeGroupZero ()  --This functor "forgets" everything. No matter what function or value you actually pass to it.
 
 instance Applicative FreeGroupZero where
   pure _ = FreeGroupZero ()    --No matter what value you try to "lift," you always get FreeGroupZero ().
